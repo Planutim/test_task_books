@@ -1,0 +1,23 @@
+﻿body{
+    border-collapse: collapse;
+}
+input{
+    display: none;
+}
+label{
+    display: block;
+}
+label:after{
+    content: "";
+}
+
+input:checked+label{
+
+}
+
+.input-asc:checked + label:after {
+    content: "▲";
+}
+.input-desc:checked + label:after {
+    content: "▼";
+}
